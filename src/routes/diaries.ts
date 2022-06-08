@@ -1,14 +1,13 @@
-import express from 'express';
+import express from 'express'
 
-const router = express.Router();
+const router = express.Router()
 
 router.get('/', (_req, res) => {
-    res.send('Fetching all entry diaries');
-});
-
+  res.send('Fetching all entry diaries')
+})
 
 router.post('/', (_req, res) => {
-    res.send('Saving a diary!');
-});
+  res.send('Saving a diary!')
+})
 
-export default router;
+export default router
